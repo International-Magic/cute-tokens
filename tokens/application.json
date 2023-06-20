@@ -394,44 +394,6 @@
         }
       },
       "component": {
-        "global": {
-          "shadow": {
-            "default": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.1)",
-              "type": "color"
-            },
-            "strong": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.2)",
-              "type": "color"
-            },
-            "stronger": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.3)",
-              "type": "color"
-            },
-            "strongest": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.5)",
-              "type": "color"
-            },
-            "none": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0)",
-              "type": "color"
-            }
-          },
-          "focus": {
-            "border": {
-              "default": {
-                "type": "color",
-                "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 30%)"
-              }
-            },
-            "focusRing": {
-              "default": {
-                "type": "color",
-                "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.focusRing.default})"
-              }
-            }
-          }
-        },
         "primary": {
           "bg": {
             "solid": {
@@ -707,6 +669,42 @@
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%)"
             }
           }
+        },
+        "shadow": {
+          "default": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.1)",
+            "type": "color"
+          },
+          "strong": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.2)",
+            "type": "color"
+          },
+          "stronger": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.3)",
+            "type": "color"
+          },
+          "strongest": {
+            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.5)",
+            "type": "color"
+          },
+          "none": {
+            "value": "transparent",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "border": {
+            "default": {
+              "type": "color",
+              "value": "hsl({config.color.info.hue.default}, {config.color.info.saturation.default}, 30%)"
+            }
+          },
+          "focusRing": {
+            "default": {
+              "type": "color",
+              "value": "hsla({config.color.info.hue.default}, {config.color.info.saturation.default}, 50%, {config.color.info.alpha.focusRing.default})"
+            }
+          }
         }
       }
     },
@@ -931,7 +929,7 @@
               "y": "0",
               "blur": "0",
               "spread": "0.25rem",
-              "color": "{app.color.component.global.focus.focusRing.default}",
+              "color": "{app.color.component.focus.focusRing.default}",
               "type": "dropShadow"
             }
           ],
@@ -944,7 +942,7 @@
               "y": "0",
               "blur": "0",
               "spread": "2px",
-              "color": "{app.color.component.global.focus.border.default}",
+              "color": "{app.color.component.focus.border.default}",
               "type": "dropShadow"
             },
             {
@@ -952,7 +950,7 @@
               "y": "0",
               "blur": "0",
               "spread": "0.25rem",
-              "color": "{app.color.component.global.focus.focusRing.default}",
+              "color": "{app.color.component.focus.focusRing.default}",
               "type": "dropShadow"
             }
           ],
@@ -980,7 +978,7 @@
               "y": "0.0625rem",
               "blur": "0.25rem",
               "spread": "0",
-              "color": "{app.color.component.global.shadow.strongest}",
+              "color": "{app.color.component.shadow.strongest}",
               "type": "dropShadow"
             }
           ],
@@ -993,7 +991,7 @@
               "y": "0",
               "blur": "0",
               "spread": "0",
-              "color": "{app.color.component.global.shadow.none}",
+              "color": "{app.color.component.shadow.none}",
               "type": "dropShadow"
             }
           ],
