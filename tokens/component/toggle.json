@@ -178,7 +178,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "{config.color.neutral.alpha.unchecked.bg.active}",
+                      "value": "0.6",
                       "space": "hsl"
                     }
                   }

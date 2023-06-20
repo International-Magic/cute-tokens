@@ -181,10 +181,6 @@
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 60%, 0.98)",
             "type": "color"
           },
-          "inverted": {
-            "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0.96%)",
-            "type": "color"
-          },
           "link": {
             "value": "hsl({config.color.primary.hue.default}, {config.color.primary.saturation.default}, 60%)",
             "type": "color"
@@ -436,7 +432,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, {config.color.neutral.alpha.unchecked.bg.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 70%, 0.4)"
             }
           },
           "border": {
@@ -446,7 +442,7 @@
             },
             "translucent": {
               "type": "color",
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 30%, {config.color.neutral.alpha.unchecked.bg.default})"
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 30%, 0.4)"
             }
           },
           "fg": {
