@@ -512,6 +512,16 @@
             }
           },
           "bg": {
+            "solid": {
+              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 40%)",
+              "type": "color"
+            },
+            "translucent": {
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 10%, 0.4)",
+              "type": "color"
+            }
+          },
+          "border": {
             "translucent": {
               "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 10%, 0.4)",
               "type": "color"

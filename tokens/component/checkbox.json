@@ -5,18 +5,27 @@
         "unchecked": {
           "bg": {
             "default": {
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
-              "type": "color"
+              "value": "{app.color.component.neutral.bg.solid}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.01",
+                    "space": "hsl"
+                  }
+                }
+              }
             },
             "active": {
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
+              "value": "{component.checkbox.color.unchecked.bg.default}",
               "type": "color",
               "$extensions": {}
             }
           },
           "border": {
             "default": {
-              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 10%, 0.4)",
+              "value": "{app.color.component.neutral.border.translucent}",
               "type": "color"
             },
             "active": {
@@ -90,7 +99,7 @@
               "type": "color"
             },
             "active": {
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
+              "value": "{component.checkbox.color.checked.fg.default}",
               "type": "color",
               "$extensions": {}
             }

@@ -230,12 +230,6 @@
               "value": "{app.color.component.neutral.fg.solid}",
               "type": "color"
             }
-          },
-          "fg": {
-            "default": {
-              "value": "{app.color.component.neutral.fg.solid}",
-              "type": "color"
-            }
           }
         }
       },
