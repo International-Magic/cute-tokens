@@ -187,7 +187,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
+                "value": "{app.color.component.neutral.fg.solid}",
                 "type": "color"
               },
               "disabled": {
@@ -218,7 +218,7 @@
             },
             "fg": {
               "default": {
-                "value": "{app.color.component.primary.fg.onSolid}",
+                "value": "{app.color.component.neutral.fg.solid}",
                 "type": "color"
               }
             }
@@ -238,7 +238,7 @@
           "value": "{app.boxShadow.control.default}",
           "type": "boxShadow"
         },
-        "pressed": {
+        "active": {
           "value": "{component.toggle.boxShadow.default}",
           "type": "boxShadow"
         }
