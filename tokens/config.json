@@ -198,10 +198,6 @@
             "active": {
               "value": "0.5",
               "type": "other"
-            },
-            "onDefault": {
-              "value": "0.2",
-              "type": "other"
             }
           },
           "border": {
@@ -257,10 +253,6 @@
             },
             "active": {
               "value": "0.6",
-              "type": "other"
-            },
-            "onDefault": {
-              "value": "0.15",
               "type": "other"
             }
           },
@@ -318,10 +310,6 @@
             "active": {
               "value": "0.35",
               "type": "other"
-            },
-            "onDefault": {
-              "value": "0.2",
-              "type": "other"
             }
           },
           "border": {
@@ -378,10 +366,6 @@
             "active": {
               "value": "0.6",
               "type": "other"
-            },
-            "onDefault": {
-              "value": "0.2",
-              "type": "other"
             }
           },
           "border": {
@@ -437,10 +421,6 @@
             },
             "active": {
               "value": "0.5",
-              "type": "other"
-            },
-            "onDefault": {
-              "value": "0.2",
               "type": "other"
             }
           },
@@ -504,10 +484,6 @@
             "active": {
               "value": "0.6",
               "type": "other"
-            },
-            "onDefault": {
-              "value": "0.2",
-              "type": "other"
             }
           },
           "border": {
@@ -549,10 +525,6 @@
           "active": {
             "value": "0.2",
             "type": "other"
-          },
-          "onDefault": {
-            "value": "0.2",
-            "type": "other"
           }
         },
         "alpha": {
@@ -567,10 +539,6 @@
             },
             "active": {
               "value": "0.6",
-              "type": "other"
-            },
-            "onDefault": {
-              "value": "0.2",
               "type": "other"
             }
           },
