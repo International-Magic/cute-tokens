@@ -510,6 +510,12 @@
               "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
               "type": "color"
             }
+          },
+          "bg": {
+            "translucent": {
+              "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 10%, 0.4)",
+              "type": "color"
+            }
           }
         },
         "info": {

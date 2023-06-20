@@ -168,11 +168,11 @@
           "unchecked": {
             "bg": {
               "default": {
-                "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 10%, 0.4)",
+                "value": "{app.color.component.neutral.bg.translucent}",
                 "type": "color"
               },
               "active": {
-                "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 10%, 0.4)",
+                "value": "{app.color.component.neutral.bg.translucent}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -227,13 +227,13 @@
         "handle": {
           "bg": {
             "default": {
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
+              "value": "{app.color.component.neutral.fg.solid}",
               "type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
+              "value": "{app.color.component.neutral.fg.solid}",
               "type": "color"
             }
           }
