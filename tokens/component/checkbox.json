@@ -86,7 +86,7 @@
           },
           "fg": {
             "default": {
-              "value": "hsl({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 96%)",
+              "value": "{app.color.component.neutral.fg.solid}",
               "type": "color"
             },
             "active": {
