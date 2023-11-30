@@ -6,7 +6,7 @@
         "type": "fontFamilies"
       },
       "secondary": {
-        "value": "Wand UI Pro",
+        "value": "Margiela Mono",
         "type": "fontFamilies"
       },
       "tertiary": {
@@ -18,6 +18,10 @@
         "type": "fontFamilies"
       },
       "uiAlt": {
+        "value": "Margiela Mono",
+        "type": "fontFamilies"
+      },
+      "code": {
         "value": "Margiela Mono",
         "type": "fontFamilies"
       },
@@ -58,16 +62,108 @@
     },
     "fontSize": {
       "base": {
-        "value": "1rem",
+        "value": "1.125rem",
         "type": "fontSizes"
       },
       "control": {
-        "value": "{config.fontSize.base}",
-        "type": "fontSizes"
+        "text": {
+          "value": "{config.fontSize.base}",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.control.text} + 0.125rem",
+          "type": "fontSizes"
+        }
       },
       "label": {
-        "value": "{config.fontSize.base} - 0.25rem",
-        "type": "fontSizes"
+        "text": {
+          "value": "{config.fontSize.base} - 0.25rem",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.label.text} + 0.125rem",
+          "type": "fontSizes"
+        }
+      },
+      "display": {
+        "text": {
+          "value": "{config.fontSize.base} * 5",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.display.text} + 0.125rem",
+          "type": "fontSizes"
+        }
+      },
+      "title": {
+        "text": {
+          "value": "{config.fontSize.base} * 2",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.title.text} + 0.125rem",
+          "type": "fontSizes"
+        }
+      },
+      "subtitle": {
+        "text": {
+          "value": "{config.fontSize.base} + 0.25rem",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.subtitle.text} + 0.125rem",
+          "type": "fontSizes"
+        }
+      },
+      "body": {
+        "text": {
+          "value": "{config.fontSize.base}",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.subtitle.text} + 0.125rem",
+          "type": "fontSizes"
+        }
+      },
+      "callout": {
+        "text": {
+          "value": "{config.fontSize.base}",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.subtitle.text} + 0.125rem",
+          "type": "fontSizes"
+        }
+      },
+      "caption": {
+        "text": {
+          "value": "{config.fontSize.base} - 0.25rem",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.caption.text} + 0.125rem",
+          "type": "fontSizes"
+        }
+      },
+      "footnote": {
+        "text": {
+          "value": "{config.fontSize.base} - 0.25rem",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.footnote.text} + 0.125rem",
+          "type": "fontSizes"
+        }
+      },
+      "code": {
+        "text": {
+          "value": "{config.fontSize.base} - 0.125rem",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{config.fontSize.code.text} + 0.125rem",
+          "type": "fontSizes"
+        }
       }
     },
     "dimension": {
@@ -139,7 +235,75 @@
       }
     },
     "color": {
-      "primary": {
+      "neutral": {
+        "hue": {
+          "default": {
+            "value": "50",
+            "type": "other"
+          }
+        },
+        "saturation": {
+          "default": {
+            "value": "1%",
+            "type": "other"
+          },
+          "translucent": {
+            "value": "1%",
+            "type": "other"
+          }
+        },
+        "darken": {
+          "default": {
+            "value": "0.1",
+            "type": "other"
+          },
+          "hover": {
+            "value": "0.1",
+            "type": "other"
+          },
+          "active": {
+            "value": "0.2",
+            "type": "other"
+          }
+        },
+        "alpha": {
+          "bg": {
+            "default": {
+              "value": "0.4",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.6",
+              "type": "other"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "0.45",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.5",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.55",
+              "type": "other"
+            }
+          }
+        },
+        "lighten": {
+          "default": {
+            "value": "0.8",
+            "type": "other"
+          }
+        }
+      },
+      "accent": {
         "hue": {
           "default": {
             "value": "215",
@@ -148,6 +312,10 @@
         },
         "saturation": {
           "default": {
+            "value": "100%",
+            "type": "other"
+          },
+          "translucent": {
             "value": "100%",
             "type": "other"
           }
@@ -169,21 +337,21 @@
         "alpha": {
           "bg": {
             "default": {
-              "value": "0.3",
+              "value": "0.5",
               "type": "other"
             },
             "hover": {
-              "value": "0.4",
+              "value": "0.6",
               "type": "other"
             },
             "active": {
-              "value": "0.5",
+              "value": "0.7",
               "type": "other"
             }
           },
           "border": {
             "default": {
-              "value": "0.5",
+              "value": "0.55",
               "type": "other"
             }
           }
@@ -192,10 +360,14 @@
           "default": {
             "value": "0.8",
             "type": "other"
+          },
+          "translucent": {
+            "value": "0.8",
+            "type": "other"
           }
         }
       },
-      "secondary": {
+      "grey": {
         "hue": {
           "default": {
             "value": "50",
@@ -204,6 +376,10 @@
         },
         "saturation": {
           "default": {
+            "value": "0%",
+            "type": "other"
+          },
+          "translucent": {
             "value": "0%",
             "type": "other"
           }
@@ -239,71 +415,7 @@
           },
           "border": {
             "default": {
-              "value": "0.6",
-              "type": "other"
-            }
-          }
-        },
-        "lighten": {
-          "default": {
-            "value": "0.8",
-            "type": "other"
-          }
-        }
-      },
-      "neutral": {
-        "hue": {
-          "default": {
-            "value": "50",
-            "type": "other"
-          }
-        },
-        "saturation": {
-          "default": {
-            "value": "1%",
-            "type": "other"
-          }
-        },
-        "darken": {
-          "default": {
-            "value": "0.1",
-            "type": "other"
-          },
-          "hover": {
-            "value": "0.1",
-            "type": "other"
-          },
-          "active": {
-            "value": "0.2",
-            "type": "other"
-          }
-        },
-        "alpha": {
-          "bg": {
-            "default": {
-              "value": "0.15",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.25",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.35",
-              "type": "other"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "0.35",
-              "type": "other"
-            },
-            "hover": {
               "value": "0.45",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.55",
               "type": "other"
             }
           }
@@ -326,6 +438,10 @@
           "default": {
             "value": "100%",
             "type": "other"
+          },
+          "translucent": {
+            "value": "100%",
+            "type": "other"
           }
         },
         "darken": {
@@ -345,21 +461,21 @@
         "alpha": {
           "bg": {
             "default": {
-              "value": "0.3",
+              "value": "0.5",
               "type": "other"
             },
             "hover": {
-              "value": "0.4",
+              "value": "0.6",
               "type": "other"
             },
             "active": {
-              "value": "0.5",
+              "value": "0.7",
               "type": "other"
             }
           },
           "border": {
             "default": {
-              "value": "0.5",
+              "value": "0.55",
               "type": "other"
             }
           },
@@ -388,6 +504,10 @@
           "default": {
             "value": "100%",
             "type": "other"
+          },
+          "translucent": {
+            "value": "80%",
+            "type": "other"
           }
         },
         "darken": {
@@ -407,21 +527,21 @@
         "alpha": {
           "bg": {
             "default": {
-              "value": "0.4",
+              "value": "0.6",
               "type": "other"
             },
             "hover": {
-              "value": "0.5",
+              "value": "0.7",
               "type": "other"
             },
             "active": {
-              "value": "0.6",
+              "value": "0.8",
               "type": "other"
             }
           },
           "border": {
             "default": {
-              "value": "0.6",
+              "value": "0.65",
               "type": "other"
             }
           }
@@ -444,6 +564,10 @@
           "default": {
             "value": "100%",
             "type": "other"
+          },
+          "translucent": {
+            "value": "90%",
+            "type": "other"
           }
         },
         "darken": {
@@ -463,21 +587,21 @@
         "alpha": {
           "bg": {
             "default": {
-              "value": "0.4",
-              "type": "other"
-            },
-            "hover": {
               "value": "0.5",
               "type": "other"
             },
-            "active": {
+            "hover": {
               "value": "0.6",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.7",
               "type": "other"
             }
           },
           "border": {
             "default": {
-              "value": "0.6",
+              "value": "0.55",
               "type": "other"
             }
           }
@@ -500,6 +624,10 @@
           "default": {
             "value": "90%",
             "type": "other"
+          },
+          "translucent": {
+            "value": "100%",
+            "type": "other"
           }
         },
         "darken": {
@@ -519,7 +647,7 @@
         "alpha": {
           "bg": {
             "default": {
-              "value": "0.4",
+              "value": "0.6",
               "type": "other"
             },
             "hover": {
@@ -533,7 +661,7 @@
           },
           "border": {
             "default": {
-              "value": "0.6",
+              "value": "0.45",
               "type": "other"
             }
           }

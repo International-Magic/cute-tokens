@@ -1,0 +1,212 @@
+{
+  "component": {
+    "slider": {
+      "typography": {
+        "value": {
+          "value": "{app.typography.control.number.default}",
+          "type": "typography"
+        },
+        "label": {
+          "value": "{app.typography.control.text.text}",
+          "type": "typography"
+        },
+        "symbol": {
+          "value": "{app.typography.control.number.default}",
+          "type": "typography"
+        }
+      },
+      "dimension": {
+        "track": {
+          "height": {
+            "value": "{component.slider.config.track.height}",
+            "type": "dimension"
+          },
+          "padding": {
+            "value": "{component.slider.dimension.handle.height} * 0.5",
+            "type": "dimension"
+          },
+          "gap": {
+            "value": "{component.slider.dimension.handle.height} * 0.5",
+            "type": "dimension"
+          },
+          "radius": {
+            "value": "{component.slider.config.track.radius}",
+            "type": "dimension"
+          }
+        },
+        "handle": {
+          "height": {
+            "value": "{component.slider.config.handle.height}",
+            "type": "dimension"
+          },
+          "width": {
+            "value": "{component.slider.config.handle.height} * {component.slider.config.handle.ratio}",
+            "type": "dimension"
+          },
+          "radius": {
+            "value": "{component.slider.config.handle.radius}",
+            "type": "dimension"
+          },
+          "pressed": {
+            "height": {
+              "value": "{component.slider.dimension.handle.height} * {component.slider.config.handle.pressed}",
+              "type": "dimension"
+            },
+            "width": {
+              "value": "{component.slider.dimension.handle.width} * {component.slider.config.handle.pressed}",
+              "type": "dimension"
+            }
+          }
+        },
+        "step": {
+          "height": {
+            "value": "{component.slider.config.track.height} - {component.slider.config.step.padding} * 2",
+            "type": "dimension"
+          },
+          "width": {
+            "value": "{component.slider.dimension.step.height} * {component.slider.config.step.ratio}",
+            "type": "dimension"
+          },
+          "radius": {
+            "value": "{component.slider.config.track.radius} - {component.slider.config.step.padding}",
+            "type": "dimension"
+          }
+        }
+      },
+      "config": {
+        "track": {
+          "height": {
+            "value": "0.25rem",
+            "type": "other",
+            "description": "-0.5 for material design style (handle is offset)"
+          },
+          "radius": {
+            "value": "0.125rem",
+            "type": "other",
+            "description": "for 100% roundness make equal to height md"
+          }
+        },
+        "handle": {
+          "height": {
+            "value": "1rem",
+            "type": "other"
+          },
+          "radius": {
+            "value": "0.5rem",
+            "type": "other",
+            "description": "for 100% roundness make half of height"
+          },
+          "ratio": {
+            "value": "1",
+            "type": "other"
+          },
+          "pressed": {
+            "value": "0.9",
+            "type": "other"
+          }
+        },
+        "label": {
+          "symbol": {
+            "default": {
+              "value": "{app.fontSize.control.text.md}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{app.fontSize.control.text.md}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.125rem",
+              "type": "other"
+            }
+          }
+        },
+        "step": {
+          "padding": {
+            "value": "0.0625rem",
+            "type": "other"
+          },
+          "ratio": {
+            "value": "0.125",
+            "type": "other"
+          }
+        }
+      },
+      "color": {
+        "track": {
+          "bg": {
+            "active": {
+              "value": "{app.color.surface.fg.default}",
+              "type": "color",
+              "$extensions": {}
+            },
+            "inactive": {
+              "value": "{app.color.surface.fg.subtle}",
+              "type": "color",
+              "$extensions": {}
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.surface.fg.default}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "transparent",
+              "type": "color"
+            }
+          }
+        },
+        "handle": {
+          "bg": {
+            "default": {
+              "value": "{app.color.surface.fg.default}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "transparent",
+              "type": "color"
+            }
+          }
+        },
+        "step": {
+          "active": {
+            "value": "{app.color.surface.elevation.base.bg.default}",
+            "type": "color"
+          },
+          "inactive": {
+            "value": "{app.color.surface.fg.default}",
+            "type": "color"
+          },
+          "hidden": {
+            "value": "transparent",
+            "type": "color"
+          }
+        }
+      },
+      "boxShadow": {
+        "default": {
+          "value": {
+            "x": "0",
+            "y": "0rem",
+            "blur": "0.125rem",
+            "spread": "0",
+            "color": "#0000001a",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    }
+  }
+}

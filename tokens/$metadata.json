@@ -2,13 +2,20 @@
   "tokenSetOrder": [
     "config",
     "application",
-    "dark",
     "component/avatar",
     "component/avatarGroup",
     "component/badge",
     "component/button",
+    "component/select",
+    "component/message",
+    "component/notification",
     "component/status",
     "component/toggle",
-    "component/checkbox"
+    "component/slider",
+    "component/checkbox",
+    "component/radio",
+    "breakpoint/small",
+    "theme/dark",
+    "theme/expressive"
   ]
 }

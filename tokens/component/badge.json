@@ -3,11 +3,11 @@
     "badge": {
       "typography": {
         "text": {
-          "value": "{app.typography.label.text}",
+          "value": "{app.typography.label.text.default}",
           "type": "typography"
         },
         "number": {
-          "value": "{app.typography.label.number}",
+          "value": "{app.typography.label.number.default}",
           "type": "typography"
         }
       },
@@ -44,7 +44,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "{config.color.primary.lighten.default}",
+                      "value": "{config.color.accent.lighten.default}",
                       "space": "hsl"
                     }
                   }
@@ -115,7 +115,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.primary.darken.default}",
+                      "value": "{config.color.accent.darken.default}",
                       "space": "hsl"
                     }
                   }
@@ -214,7 +214,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "{config.color.secondary.lighten.default}",
+                      "value": "{config.color.grey.lighten.default}",
                       "space": "hsl"
                     }
                   }
@@ -285,7 +285,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "darken",
-                      "value": "{config.color.secondary.darken.default}",
+                      "value": "{config.color.grey.darken.default}",
                       "space": "hsl"
                     }
                   }
@@ -749,20 +749,6 @@
             "value": "{component.badge.dimension.border.md} + {component.badge.config.border.step}",
             "type": "dimension"
           }
-        },
-        "gap": {
-          "sm": {
-            "value": "{component.badge.dimension.gap.md} - {component.badge.config.gap.step}",
-            "type": "dimension"
-          },
-          "md": {
-            "value": "{component.badge.config.gap.default}",
-            "type": "dimension"
-          },
-          "lg": {
-            "value": "{component.badge.dimension.gap.md} + {component.badge.config.gap.step}",
-            "type": "dimension"
-          }
         }
       },
       "fontSize": {
@@ -821,16 +807,6 @@
         "padding": {
           "default": {
             "value": "0.625rem",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.125rem",
-            "type": "other"
-          }
-        },
-        "gap": {
-          "default": {
-            "value": "0.25rem",
             "type": "other"
           },
           "step": {

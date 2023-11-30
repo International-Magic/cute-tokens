@@ -1,0 +1,160 @@
+{
+  "component": {
+    "message": {
+      "typography": {
+        "default": {
+          "value": "{app.typography.control.text.text}",
+          "type": "typography"
+        },
+        "symbol": {
+          "value": "{app.typography.control.symbol.default}",
+          "type": "typography"
+        }
+      },
+      "color": {
+        "default": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.tertiary.bg.translucent}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.secondary.fg.onTranslucent}",
+              "type": "color"
+            }
+          }
+        },
+        "danger": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.danger.bg.translucent}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.danger.fg.onTranslucent}",
+              "type": "color"
+            }
+          }
+        },
+        "success": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.success.bg.translucent}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.success.fg.onTranslucent}",
+              "type": "color"
+            }
+          }
+        },
+        "warning": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.warning.bg.translucent}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.warning.fg.onTranslucent}",
+              "type": "color"
+            }
+          }
+        },
+        "info": {
+          "bg": {
+            "default": {
+              "value": "{app.color.component.info.bg.translucent}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{app.color.component.info.fg.onTranslucent}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "dimension": {
+        "box": {
+          "padding": {
+            "default": {
+              "value": "{app.dimension.control.padding.md} * 0.25",
+              "type": "dimension"
+            },
+            "cta": {
+              "value": "{app.dimension.control.padding.md} * 0.25",
+              "type": "dimension"
+            },
+            "promise": {
+              "value": "{app.dimension.control.padding.md} * 0.75",
+              "type": "dimension"
+            },
+            "symbol": {
+              "value": "{app.dimension.control.padding.md} * 0.75",
+              "type": "dimension"
+            }
+          },
+          "gap": {
+            "default": {
+              "value": "0rem",
+              "type": "dimension"
+            }
+          },
+          "radius": {
+            "default": {
+              "value": "{app.dimension.control.radius.md} + {component.message.dimension.box.padding.default}",
+              "type": "dimension"
+            },
+            "media": {
+              "value": "{app.dimension.control.radius.md}",
+              "type": "dimension"
+            }
+          },
+          "blur": {
+            "default": {
+              "value": "6rem",
+              "type": "dimension"
+            }
+          }
+        },
+        "text": {
+          "padding": {
+            "default": {
+              "value": "{app.dimension.control.padding.md}",
+              "type": "dimension"
+            }
+          }
+        }
+      },
+      "boxShadow": {
+        "default": {
+          "value": "{app.boxShadow.component.high}",
+          "type": "boxShadow"
+        },
+        "inline": {
+          "value": "0",
+          "type": "boxShadow"
+        }
+      },
+      "fontSize": {
+        "default": {
+          "value": "{app.fontSize.control.text.sm}",
+          "type": "fontSizes"
+        },
+        "symbol": {
+          "value": "{app.fontSize.control.text.xl}",
+          "type": "fontSizes"
+        }
+      }
+    }
+  }
+}
