@@ -244,11 +244,11 @@
         },
         "saturation": {
           "default": {
-            "value": "1%",
+            "value": "0%",
             "type": "other"
           },
           "translucent": {
-            "value": "1%",
+            "value": "0%",
             "type": "other"
           }
         },
@@ -314,7 +314,7 @@
       "primary": {
         "hue": {
           "default": {
-            "value": "215",
+            "value": "20",
             "type": "other"
           }
         },
@@ -672,7 +672,7 @@
       "danger": {
         "hue": {
           "default": {
-            "value": "10",
+            "value": "300",
             "type": "other"
           }
         },

@@ -167,8 +167,17 @@
                 "type": "color"
               },
               "inactive": {
-                "value": "{app.color.component.neutral.border.translucent}",
-                "type": "color"
+                "value": "{app.color.surface.fg.inverted}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.16",
+                      "space": "hsl"
+                    }
+                  }
+                }
               }
             },
             "border": {

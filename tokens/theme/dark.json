@@ -200,12 +200,6 @@
             "type": "color"
           }
         },
-        "dimmer": {
-          "default": {
-            "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 1)",
-            "type": "color"
-          }
-        },
         "playground": {
           "default": {
             "value": "hsla({config.color.neutral.hue.default}, {config.color.neutral.saturation.default}, 0%, 0.55)",
